@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="jianhonghan@10.104.6.84:22 password" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="hanjianhong@10.104.7.37:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.10.10.1:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data2/NCUT/个人文件夹/HJH/北理项目/域适应目标检测/第五篇多模态目标检测/0.改进/rtdetrv2_pytorch" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.10.10.6:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.10.10.6:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.10.10.7:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.10.10.7:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.104.6.84:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/jianhonghan/code/0.第五篇多模态目标检测/2.消融实验最终/adapter消融/2.rtdetrv2_pytorch_多模态输入_同backbone_特征拼接+mamba通道调制+mamba补足_84+adapter_冻结BN版本_84" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianhonghan@10.104.6.84:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

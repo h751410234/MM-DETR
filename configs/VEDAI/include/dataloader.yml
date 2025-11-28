@@ -1,0 +1,38 @@
+
+train_dataloader: 
+  dataset: 
+    transforms:
+      ops:
+        - {type: RandomPhotometricDistort, p: 0.5}
+        - {type: RandomZoomOut, fill: 0}
+        - {type: RandomIoUCrop, p: 0.8}
+        - {type: SanitizeBoundingBoxes, min_size: 1}
+        - {type: RandomHorizontalFlip}
+        - {type: Resize, size: [1024, 1024], }
+        - {type: SanitizeBoundingBoxes, min_size: 1}
+        - {type: ConvertPILImage, dtype: 'float32', scale: True}
+        - {type: ConvertBoxes, fmt: 'cxcywh', normalize: True}
+      policy:
+        name: stop_epoch
+        epoch: 71 # epoch in [71, ~) stop `ops`
+        ops: ['RandomPhotometricDistort', 'RandomZoomOut', 'RandomIoUCrop']
+  
+  collate_fn:
+    type: BatchImageCollateFuncion_Multimodal
+    scales: [768, 832, 864, 928, 960, 1024, 1024, 1024, 1088, 1120, 1184, 1216, 1280]
+    stop_epoch: 71 # epoch in [71, ~) stop `multiscales`
+
+  shuffle: True
+  total_batch_size: 3 # total batch size equals to 16 (4 * 4)  #每个模态的batch
+  num_workers: 3
+
+
+val_dataloader:
+  dataset: 
+    transforms:
+      ops: 
+        - {type: Resize, size: [1024, 1024]}
+        - {type: ConvertPILImage, dtype: 'float32', scale: True}   
+  shuffle: False
+  total_batch_size: 4
+  num_workers: 4
