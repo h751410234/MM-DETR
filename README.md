@@ -1,10 +1,10 @@
-# MM-DETR: An Efficient Multimodal Detection Transformer with Mamba-Driven Dual-Granularity Fusion and Frequency-Aware Modality Modeling
+# MM-DETR: An Efficient Multimodal Detection Transformer with Mamba-Driven Dual-Granularity Fusion and Frequency-Aware Modality Adapters
 
 **Authors:** Jianhong Han, Yupei Wang, Yuan Zhang, and Liang Chen
 
 This repository contains the official implementation of:
 
-**MM-DETR: An Efficient Multimodal Detection Transformer with Mamba-Driven Dual-Granularity Fusion and Frequency-Aware Modality Modeling**
+**MM-DETR: An Efficient Multimodal Detection Transformer with Mamba-Driven Dual-Granularity Fusion and Frequency-Aware Modality Adapters**
 
 If this work benefits your research, please consider citing our paper.
 
