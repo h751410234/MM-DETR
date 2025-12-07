@@ -22,7 +22,7 @@ This implementation is built upon the excellent open-source project
 
 ## Installation
 
-See **requirements.txt** for environment setup.  
+Follow the official RT-DETR environment setup, and simply install the additional mamba_ssm library.
 Our experimental environment:
 
 - **OS:** Ubuntu 16.04  
